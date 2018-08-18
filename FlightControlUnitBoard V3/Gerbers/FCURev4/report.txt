@@ -1,0 +1,7 @@
+Info: Front side (top side) place file: "/Users/rscote/Dropbox/DC26/FlyingSkull/gitlab/FlightControlUnitBoard V3/Gerbers/FCURev4/FlightControlUnitBoard-top.pos".
+Info: Component count: 4.
+Info: Back side (bottom side) place file: "/Users/rscote/Dropbox/DC26/FlyingSkull/gitlab/FlightControlUnitBoard V3/Gerbers/FCURev4/FlightControlUnitBoard-bottom.pos".
+Info: Component count: 4.
+Info: Full component count: 8
+
+Component Placement File generation OK.

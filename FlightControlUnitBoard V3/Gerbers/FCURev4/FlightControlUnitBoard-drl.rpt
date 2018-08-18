@@ -1,0 +1,23 @@
+Drill report for /Users/rscote/Dropbox/DC26/FlyingSkull/gitlab/FlightControlUnitBoard V3/FlightControlUnitBoard.kicad_pcb
+Created on Sunday, July 01, 2018 at 09:27:00 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'FlightControlUnitBoard-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (86 holes)
+    T2  1.00mm  0.039"  (16 holes)
+
+    Total plated holes count 102
+
+
+Drill file 'FlightControlUnitBoard-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

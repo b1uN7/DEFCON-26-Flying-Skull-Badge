@@ -1,0 +1,19 @@
+### Module positions - created on Monday, July 02, 2018 'PMt' 09:23:17 PM ###
+### Printed by Pcbnew version pcbnew 4.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                              PosX       PosY       Rot  Side
+C5        C           C_0805                           198.5500  -114.9000   90.0000  top
+C6        0.1uF       C_0805                           182.6000  -142.7000  180.0000  top
+C7        0.1uF       C_0805                           195.4530  -140.8430    0.0000  top
+D1        LED         LED_0805                         234.0610  -118.7450    0.0000  top
+J4        GS2         SolderJumper                     217.9000  -173.6500    0.0000  top
+R1        10K         R_0805                           234.3150  -116.8400    0.0000  top
+R2        10K         R_0805                           182.2500  -147.9000  180.0000  top
+R3        1K          R_0805                           233.0958  -150.9268    0.0000  top
+R4        2K          R_0805                           233.1974  -153.1366  180.0000  top
+R5        10K         R_0805                           188.8490  -115.2940  180.0000  top
+R6        10K         R_0805                           188.8490  -117.4530  180.0000  top
+U4        24LC256     SOIC-8_3.9x4.9mm_Pitch1.27mm     193.9000  -115.0000  270.0000  top
+U5        TXB0108PWR  TSSOP-20_4.4x6.5mm_Pitch0.65mm   189.4586  -144.5260    0.0000  top
+## End

@@ -1,0 +1,7 @@
+### Module positions - created on Monday, July 02, 2018 'PMt' 09:23:17 PM ###
+### Printed by Pcbnew version pcbnew 4.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val         Package                                                 PosX       PosY       Rot  Side
+J2        BottomConn  Pin_Header_Straight_1x10_Pitch2.54mm_SMD_Pin1Left   199.8100  -122.4950  270.0000  bottom
+## End

@@ -1,0 +1,27 @@
+<openpnp-job>
+   <panels>
+      <panel>
+         <id>Panel1</id>
+         <columns>3</columns>
+         <rows>3</rows>
+         <x-gap value="0.0" units="Millimeters"/>
+         <y-gap value="0.0" units="Millimeters"/>
+         <part-id></part-id>
+         <check-fids>false</check-fids>
+         <fiducials>
+            <placement version="1.2" id="PanelFid1" side="Top" type="Place" check-fids="false">
+               <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            </placement>
+            <placement version="1.2" id="PanelFid2" side="Top" type="Place" check-fids="false">
+               <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+            </placement>
+         </fiducials>
+      </panel>
+   </panels>
+   <board-locations>
+      <board-location side="Top" board-file="skull.board.xml" panel-id="Panel1" check-fiducials="false" enabled="true">
+         <location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+         <placed class="java.util.HashMap"/>
+      </board-location>
+   </board-locations>
+</openpnp-job>

@@ -1,0 +1,250 @@
+<openpnp-board version="1.1" name="skull.board.xml">
+   <dimensions units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+   <fiducials/>
+   <placements>
+      <placement version="1.2" id="C1" side="Top" part-id="C_0805-10uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="128.675" y="-80.325" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C2" side="Top" part-id="C_0805-22pF" type="Place" check-fids="false">
+         <location units="Millimeters" x="108.55" y="-99.85" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="C3" side="Top" part-id="C_0805-22pF" type="Place" check-fids="false">
+         <location units="Millimeters" x="108.65" y="-91.9" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C4" side="Top" part-id="C_0805-100nF" type="Place" check-fids="false">
+         <location units="Millimeters" x="115.8" y="-86.45" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C5" side="Top" part-id="C_0805-1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="122.05" y="-87.6" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C6" side="Top" part-id="C_0805-100nF" type="Place" check-fids="false">
+         <location units="Millimeters" x="133.5" y="-93.6" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C7" side="Top" part-id="C_0805-10uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="149.0853" y="-95.6945" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C8" side="Top" part-id="C_0805-1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="132.2" y="-100.8" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C9" side="Top" part-id="C_0805-1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="116.25" y="-92.3" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C10" side="Top" part-id="C_0805-1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="129.15" y="-87.95" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C11" side="Top" part-id="C_0805-1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="150.9395" y="-92.3925" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="C12" side="Top" part-id="C_0805-10uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="141.9098" y="-92.4179" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C13" side="Top" part-id="C_0805-10uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="139.8651" y="-92.4052" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C14" side="Top" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="149.6541" y="-100.9822" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C31" side="Top" part-id="C_0805-10uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="122.2" y="-160.8" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="C32" side="Top" part-id="C_0805-10uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="123.1" y="-163.6" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="D1" side="Top" part-id="LED_0805-RX" type="Place" check-fids="false">
+         <location units="Millimeters" x="117.5" y="-79.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="D2" side="Top" part-id="LED_0805-TX" type="Place" check-fids="false">
+         <location units="Millimeters" x="117.5" y="-81.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="D3" side="Top" part-id="LED_0805-PWR" type="Place" check-fids="false">
+         <location units="Millimeters" x="158.695" y="-92.6205" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="D4" side="Top" part-id="LED_0805-LED" type="Place" check-fids="false">
+         <location units="Millimeters" x="111.6415" y="-106.0825" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="F1" side="Top" part-id="Fuse_SMD2920-Fuse" type="Place" check-fids="false">
+         <location units="Millimeters" x="148.6541" y="-86.7072" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="J1" side="Top" part-id="USB_Micro-B_10103594-0001LF-USB_OTG" type="Place" check-fids="false">
+         <location units="Millimeters" x="124.362" y="-75.6025" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="L1" side="Top" part-id="L_0805-L" type="Place" check-fids="false">
+         <location units="Millimeters" x="133.45" y="-91.6" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="R1" side="Top" part-id="R_0805-22" type="Place" check-fids="false">
+         <location units="Millimeters" x="123.6" y="-81.3" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R2" side="Top" part-id="R_0805-22" type="Place" check-fids="false">
+         <location units="Millimeters" x="125.6" y="-81.3" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R3" side="Top" part-id="R_0805-10K" type="Place" check-fids="false">
+         <location units="Millimeters" x="115.85" y="-88.4" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="R4" side="Top" part-id="R_0805-1M" type="Place" check-fids="false">
+         <location units="Millimeters" x="116.25" y="-95.85" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R5" side="Top" part-id="R_0805-100" type="Place" check-fids="false">
+         <location units="Millimeters" x="148.8694" y="-92.3798" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="R6" side="Top" part-id="R_0805-10K" type="Place" check-fids="false">
+         <location units="Millimeters" x="129.65" y="-104.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="R7" side="Top" part-id="R_0805-1K" type="Place" check-fids="false">
+         <location units="Millimeters" x="111.5291" y="-76.0572" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="R8" side="Top" part-id="R_0805-1K" type="Place" check-fids="false">
+         <location units="Millimeters" x="111.5041" y="-78.0572" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="R9" side="Top" part-id="R_0805-1K" type="Place" check-fids="false">
+         <location units="Millimeters" x="158.398" y="-94.5255" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="R12" side="Top" part-id="R_0805-1K" type="Place" check-fids="false">
+         <location units="Millimeters" x="115.3475" y="-106.0825" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="R13" side="Top" part-id="R_0805-1K" type="Place" check-fids="false">
+         <location units="Millimeters" x="105.8486" y="-169.9347" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="R14" side="Top" part-id="R_0805-1K" type="Place" check-fids="false">
+         <location units="Millimeters" x="111.3731" y="-171.9667" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="R15" side="Top" part-id="R_0805-1K" type="Place" check-fids="false">
+         <location units="Millimeters" x="118.3581" y="-171.3952" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="R16" side="Top" part-id="R_0805-1K" type="Place" check-fids="false">
+         <location units="Millimeters" x="125.2161" y="-171.3952" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="R17" side="Top" part-id="R_0805-1K" type="Place" check-fids="false">
+         <location units="Millimeters" x="131.2486" y="-171.2047" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="R18" side="Top" part-id="R_0805-1K" type="Place" check-fids="false">
+         <location units="Millimeters" x="137.5351" y="-171.0777" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="R19" side="Top" part-id="R_0805-1K" type="Place" check-fids="false">
+         <location units="Millimeters" x="142.7421" y="-168.2837" z="0.0" rotation="225.0"/>
+      </placement>
+      <placement version="1.2" id="R20" side="Top" part-id="R_0805-1M" type="Place" check-fids="false">
+         <location units="Millimeters" x="145.05" y="-164.95" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R22" side="Top" part-id="R_0805-0" type="Place" check-fids="false">
+         <location units="Millimeters" x="143.2541" y="-99.8822" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="R23" side="Top" part-id="R_0805-0" type="Place" check-fids="false">
+         <location units="Millimeters" x="140.9291" y="-102.8322" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="SW2" side="Top" part-id="SW_SPDT_PCM12-ARD_SW" type="Place" check-fids="false">
+         <location units="Millimeters" x="165.0041" y="-89.5322" z="0.0" rotation="47.2"/>
+      </placement>
+      <placement version="1.2" id="U1" side="Top" part-id="TQFP-44_10x10mm_Pitch0.8mm-ATMEGA32U4-AU" type="Place" check-fids="false">
+         <location units="Millimeters" x="124.4" y="-96.15" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="U2" side="Top" part-id="VSON-10-1EP_3x3mm_Pitch0.5mm_ThermalPad-TPS63002" type="Place" check-fids="false">
+         <location units="Millimeters" x="145.2149" y="-92.3737" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="U3" side="Top" part-id="SOT-223_edit-AZ1117-3.3" type="Place" check-fids="false">
+         <location units="Millimeters" x="116.002" y="-162.6" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C15" side="Bottom" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="95.406" y="-148.818" z="0.0" rotation="135.0"/>
+      </placement>
+      <placement version="1.2" id="C16" side="Bottom" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="154.842" y="-149.326" z="0.0" rotation="225.0"/>
+      </placement>
+      <placement version="1.2" id="C17" side="Bottom" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="94.5" y="-88.75" z="0.0" rotation="45.0"/>
+      </placement>
+      <placement version="1.2" id="C18" side="Bottom" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="155.858" y="-89.382" z="0.0" rotation="315.0"/>
+      </placement>
+      <placement version="1.2" id="C19" side="Bottom" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="88.802" y="-156.438" z="0.0" rotation="135.0"/>
+      </placement>
+      <placement version="1.2" id="C20" side="Bottom" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="161.954" y="-156.946" z="0.0" rotation="225.0"/>
+      </placement>
+      <placement version="1.2" id="C21" side="Bottom" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="86.77" y="-81.254" z="0.0" rotation="45.0"/>
+      </placement>
+      <placement version="1.2" id="C22" side="Bottom" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="164.494" y="-81.762" z="0.0" rotation="315.0"/>
+      </placement>
+      <placement version="1.2" id="C23" side="Bottom" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="80.674" y="-163.55" z="0.0" rotation="135.0"/>
+      </placement>
+      <placement version="1.2" id="C24" side="Bottom" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="170.082" y="-164.566" z="0.0" rotation="225.0"/>
+      </placement>
+      <placement version="1.2" id="C25" side="Bottom" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="80.166" y="-74.65" z="0.0" rotation="45.0"/>
+      </placement>
+      <placement version="1.2" id="C26" side="Bottom" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="172.622" y="-74.142" z="0.0" rotation="315.0"/>
+      </placement>
+      <placement version="1.2" id="C27" side="Bottom" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="73.054" y="-170.662" z="0.0" rotation="135.0"/>
+      </placement>
+      <placement version="1.2" id="C28" side="Bottom" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="178.718" y="-172.694" z="0.0" rotation="225.0"/>
+      </placement>
+      <placement version="1.2" id="C29" side="Bottom" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="73.562" y="-67.538" z="0.0" rotation="45.0"/>
+      </placement>
+      <placement version="1.2" id="C30" side="Bottom" part-id="C_0805-0.1uF" type="Place" check-fids="false">
+         <location units="Millimeters" x="180.75" y="-66.522" z="0.0" rotation="315.0"/>
+      </placement>
+      <placement version="1.2" id="R21" side="Bottom" part-id="R_0805-300" type="Place" check-fids="false">
+         <location units="Millimeters" x="98.8001" y="-83.7652" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="U9" side="Bottom" part-id="LED_WS2812B-PLCC4_LG_PADS-WS2812B" type="Place" check-fids="false">
+         <location units="Millimeters" x="92.358" y="-152.882" z="0.0" rotation="135.0"/>
+      </placement>
+      <placement version="1.2" id="U10" side="Bottom" part-id="LED_WS2812B-PLCC4_LG_PADS-WS2812B" type="Place" check-fids="false">
+         <location units="Millimeters" x="158.398" y="-152.882" z="0.0" rotation="225.0"/>
+      </placement>
+      <placement version="1.2" id="U11" side="Bottom" part-id="LED_WS2812B-PLCC4_LG_PADS-WS2812B" type="Place" check-fids="false">
+         <location units="Millimeters" x="90.326" y="-84.81" z="0.0" rotation="45.0"/>
+      </placement>
+      <placement version="1.2" id="U12" side="Bottom" part-id="LED_WS2812B-PLCC4_LG_PADS-WS2812B" type="Place" check-fids="false">
+         <location units="Millimeters" x="159.922" y="-85.826" z="0.0" rotation="315.0"/>
+      </placement>
+      <placement version="1.2" id="U13" side="Bottom" part-id="LED_WS2812B-PLCC4_LG_PADS-WS2812B" type="Place" check-fids="false">
+         <location units="Millimeters" x="85.246" y="-159.486" z="0.0" rotation="135.0"/>
+      </placement>
+      <placement version="1.2" id="U14" side="Bottom" part-id="LED_WS2812B-PLCC4_LG_PADS-WS2812B" type="Place" check-fids="false">
+         <location units="Millimeters" x="166.018" y="-160.502" z="0.0" rotation="225.0"/>
+      </placement>
+      <placement version="1.2" id="U15" side="Bottom" part-id="LED_WS2812B-PLCC4_LG_PADS-WS2812B" type="Place" check-fids="false">
+         <location units="Millimeters" x="83.722" y="-77.698" z="0.0" rotation="45.0"/>
+      </placement>
+      <placement version="1.2" id="U16" side="Bottom" part-id="LED_WS2812B-PLCC4_LG_PADS-WS2812B" type="Place" check-fids="false">
+         <location units="Millimeters" x="168.558" y="-78.714" z="0.0" rotation="315.0"/>
+      </placement>
+      <placement version="1.2" id="U17" side="Bottom" part-id="LED_WS2812B-PLCC4_LG_PADS-WS2812B" type="Place" check-fids="false">
+         <location units="Millimeters" x="77.118" y="-167.106" z="0.0" rotation="135.0"/>
+      </placement>
+      <placement version="1.2" id="U18" side="Bottom" part-id="LED_WS2812B-PLCC4_LG_PADS-WS2812B" type="Place" check-fids="false">
+         <location units="Millimeters" x="174.654" y="-168.63" z="0.0" rotation="225.0"/>
+      </placement>
+      <placement version="1.2" id="U19" side="Bottom" part-id="LED_WS2812B-PLCC4_LG_PADS-WS2812B" type="Place" check-fids="false">
+         <location units="Millimeters" x="77.118" y="-71.094" z="0.0" rotation="45.0"/>
+      </placement>
+      <placement version="1.2" id="U20" side="Bottom" part-id="LED_WS2812B-PLCC4_LG_PADS-WS2812B" type="Place" check-fids="false">
+         <location units="Millimeters" x="176.178" y="-71.094" z="0.0" rotation="315.0"/>
+      </placement>
+      <placement version="1.2" id="U21" side="Bottom" part-id="LED_WS2812B-PLCC4_LG_PADS-WS2812B" type="Place" check-fids="false">
+         <location units="Millimeters" x="69.498" y="-174.218" z="0.0" rotation="135.0"/>
+      </placement>
+      <placement version="1.2" id="U22" side="Bottom" part-id="LED_WS2812B-PLCC4_LG_PADS-WS2812B" type="Place" check-fids="false">
+         <location units="Millimeters" x="182.274" y="-176.25" z="0.0" rotation="225.0"/>
+      </placement>
+      <placement version="1.2" id="U23" side="Bottom" part-id="LED_WS2812B-PLCC4_LG_PADS-WS2812B" type="Place" check-fids="false">
+         <location units="Millimeters" x="70.26" y="-64.49" z="0.0" rotation="45.0"/>
+      </placement>
+      <placement version="1.2" id="U24" side="Bottom" part-id="LED_WS2812B-PLCC4_LG_PADS-WS2812B" type="Place" check-fids="false">
+         <location units="Millimeters" x="184.814" y="-63.474" z="0.0" rotation="315.0"/>
+      </placement>
+      <placement version="1.2" id="X1" side="Bottom" part-id="Socket_Strip_Straight_2x02_Pitch2.54mm_SMD-Badgelife_shitty_connector" type="Place" check-fids="false">
+         <location units="Millimeters" x="126.6291" y="-122.1322" z="0.0" rotation="0.0"/>
+      </placement>
+   </placements>
+   <solder-paste-pads/>
+</openpnp-board>

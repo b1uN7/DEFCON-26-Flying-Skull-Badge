@@ -1,0 +1,31 @@
+<openpnp-board version="1.1" name="FlightControlUnitBoard.board.xml">
+   <dimensions units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+   <fiducials/>
+   <placements>
+      <placement version="1.2" id="LED1" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="197.2" y="-101.525" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="LED2" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="199.35" y="-78.075" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R1" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="197.775" y="-105.775" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="R2" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="199.5" y="-73.925" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="LED3" side="Bottom" type="Place" check-fids="false">
+         <location units="Millimeters" x="199.39" y="-78.105" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="LED4" side="Bottom" type="Place" check-fids="false">
+         <location units="Millimeters" x="197.1" y="-101.6" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="R3" side="Bottom" type="Place" check-fids="false">
+         <location units="Millimeters" x="199.525" y="-73.8" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="R4" side="Bottom" type="Place" check-fids="false">
+         <location units="Millimeters" x="197.75" y="-105.65" z="0.0" rotation="0.0"/>
+      </placement>
+   </placements>
+   <solder-paste-pads/>
+</openpnp-board>

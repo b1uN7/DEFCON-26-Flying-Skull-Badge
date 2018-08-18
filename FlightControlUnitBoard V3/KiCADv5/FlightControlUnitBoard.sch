@@ -1,0 +1,369 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:FlightControlUnitBoard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "b1unt7's Flight Control IUnit (FCU) Board"
+Date "4/24/18"
+Rev "0"
+Comp "b1un7"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Conn_01x02_Male J3
+U 1 1 5AE00925
+P 3700 3100
+F 0 "J3" H 3700 3200 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3250 2950 50  0001 C CNN
+F 2 "Wire_Pads:Wire_Pads_1x2_4x3mm" H 3700 3100 50  0001 C CNN
+F 3 "" H 3700 3100 50  0001 C CNN
+	1    3700 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x02_Male J2
+U 1 1 5AE00B3B
+P 3150 3750
+F 0 "J2" H 3150 3850 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 2900 3550 50  0001 C CNN
+F 2 "Wire_Pads:Wire_Pads_1x2_4x3mm" H 3150 3750 50  0001 C CNN
+F 3 "" H 3150 3750 50  0001 C CNN
+	1    3150 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x02_Male J4
+U 1 1 5AE00BC3
+P 3700 4400
+F 0 "J4" H 3700 4500 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3450 4200 50  0001 C CNN
+F 2 "Wire_Pads:Wire_Pads_1x2_4x3mm" H 3700 4400 50  0001 C CNN
+F 3 "" H 3700 4400 50  0001 C CNN
+	1    3700 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x02_Male J5
+U 1 1 5AE00CA2
+P 5700 3100
+F 0 "J5" H 5700 3200 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5450 2900 50  0001 C CNN
+F 2 "Wire_Pads:Wire_Pads_1x2_4x3mm" H 5700 3100 50  0001 C CNN
+F 3 "" H 5700 3100 50  0001 C CNN
+	1    5700 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_01x02_Male J6
+U 1 1 5AE00D46
+P 5750 4400
+F 0 "J6" H 5750 4500 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 5500 4200 50  0001 C CNN
+F 2 "Wire_Pads:Wire_Pads_1x2_4x3mm" H 5750 4400 50  0001 C CNN
+F 3 "" H 5750 4400 50  0001 C CNN
+	1    5750 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Conn_02x05_Odd_Even J1
+U 1 1 5AEDEB14
+P 2050 3750
+F 0 "J1" H 2100 4050 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 2100 3450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 2050 3750 50  0001 C CNN
+F 3 "" H 2050 3750 50  0001 C CNN
+	1    2050 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Conn_02x01 J7
+U 1 1 5AEE0275
+P 2700 2425
+F 0 "J7" H 2750 2525 50  0000 C CNN
+F 1 "Conn_02x01" H 2750 2325 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2700 2425 50  0001 C CNN
+F 3 "" H 2700 2425 50  0001 C CNN
+	1    2700 2425
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3000 2425
+NoConn ~ 2500 2425
+Text Notes 2025 2100 0    60   Italic 0
+{For header pins to be used as connectors to badge\n  for stability of the board, they are not connected to anything}
+$Comp
+L Conn_02x01 J8
+U 1 1 5AEE0348
+P 3425 2425
+F 0 "J8" H 3475 2525 50  0000 C CNN
+F 1 "Conn_02x01" H 3475 2325 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3425 2425 50  0001 C CNN
+F 3 "" H 3425 2425 50  0001 C CNN
+	1    3425 2425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_02x01 J9
+U 1 1 5AEE037A
+P 4125 2425
+F 0 "J9" H 4175 2525 50  0000 C CNN
+F 1 "Conn_02x01" H 4175 2325 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4125 2425 50  0001 C CNN
+F 3 "" H 4125 2425 50  0001 C CNN
+	1    4125 2425
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3225 2425
+NoConn ~ 3725 2425
+NoConn ~ 3925 2425
+NoConn ~ 4425 2425
+$Comp
+L Conn_02x01 J11
+U 1 1 5B368736
+P 6300 2375
+F 0 "J11" H 6350 2475 50  0000 C CNN
+F 1 "Conn_02x01" H 6350 2275 50  0000 C CNN
+F 2 "Connect:SMD_Pads_1x2" H 6300 2375 50  0001 C CNN
+F 3 "" H 6300 2375 50  0001 C CNN
+	1    6300 2375
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 5B368879
+P 5275 1900
+F 0 "R1" V 5355 1900 50  0000 C CNN
+F 1 "33" V 5275 1900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5205 1900 50  0001 C CNN
+F 3 "" H 5275 1900 50  0001 C CNN
+	1    5275 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5B3688EE
+P 6100 1925
+F 0 "R2" V 6180 1925 50  0000 C CNN
+F 1 "33" V 6100 1925 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6030 1925 50  0001 C CNN
+F 3 "" H 6100 1925 50  0001 C CNN
+	1    6100 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 5B36897A
+P 5475 1900
+F 0 "R4" V 5555 1900 50  0000 C CNN
+F 1 "33" V 5475 1900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 5405 1900 50  0001 C CNN
+F 3 "" H 5475 1900 50  0001 C CNN
+	1    5475 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 5B368B34
+P 6325 1925
+F 0 "R3" V 6405 1925 50  0000 C CNN
+F 1 "33" V 6325 1925 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 6255 1925 50  0001 C CNN
+F 3 "" H 6325 1925 50  0001 C CNN
+	1    6325 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 5B368C0A
+P 5275 1425
+F 0 "D1" H 5275 1525 50  0000 C CNN
+F 1 "GREEN" H 5275 1325 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 5275 1425 50  0001 C CNN
+F 3 "" H 5275 1425 50  0001 C CNN
+	1    5275 1425
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 5B368CCA
+P 5475 1450
+F 0 "D4" H 5475 1550 50  0000 C CNN
+F 1 "GREEN" H 5475 1350 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 5475 1450 50  0001 C CNN
+F 3 "" H 5475 1450 50  0001 C CNN
+	1    5475 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 5B368D52
+P 6100 1425
+F 0 "D2" H 6100 1525 50  0000 C CNN
+F 1 "RED" H 6100 1325 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 6100 1425 50  0001 C CNN
+F 3 "" H 6100 1425 50  0001 C CNN
+	1    6100 1425
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 5B368DEE
+P 6325 1425
+F 0 "D3" H 6325 1525 50  0000 C CNN
+F 1 "RED" H 6325 1325 50  0000 C CNN
+F 2 "LEDs:LED_0805" H 6325 1425 50  0001 C CNN
+F 3 "" H 6325 1425 50  0001 C CNN
+	1    6325 1425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 3450 2950 3450
+Wire Wire Line
+	2950 3450 2950 3650
+Wire Wire Line
+	2250 3950 2950 3950
+Wire Wire Line
+	2950 3950 2950 3750
+Wire Wire Line
+	1850 3450 1850 3100
+Wire Wire Line
+	1850 3100 3500 3100
+Wire Wire Line
+	1850 3950 1675 3950
+Wire Wire Line
+	1675 3950 1675 3000
+Wire Wire Line
+	1675 3000 3500 3000
+Wire Wire Line
+	1950 3950 1950 4300
+Wire Wire Line
+	1950 4300 3500 4300
+Wire Wire Line
+	1950 3450 1600 3450
+Wire Wire Line
+	1600 3450 1600 4400
+Wire Wire Line
+	1600 4400 3500 4400
+Wire Wire Line
+	2050 3450 2050 3275
+Wire Wire Line
+	2050 3275 5175 3275
+Wire Wire Line
+	5175 3275 5175 4400
+Wire Wire Line
+	5175 4400 5550 4400
+Wire Wire Line
+	2050 3950 2050 4175
+Wire Wire Line
+	2050 4175 5425 4175
+Wire Wire Line
+	5425 4175 5425 4300
+Wire Wire Line
+	5425 4300 5550 4300
+Wire Wire Line
+	2150 3450 2150 3350
+Wire Wire Line
+	2150 3350 5500 3350
+Wire Wire Line
+	5500 3350 5500 3100
+Wire Wire Line
+	2150 3950 2150 4075
+Wire Wire Line
+	2150 4075 5075 4075
+Wire Wire Line
+	5075 4075 5075 3000
+Wire Wire Line
+	5075 3000 5500 3000
+Wire Wire Line
+	5300 2400 5300 2050
+Wire Wire Line
+	5300 2050 5275 2050
+Wire Wire Line
+	5475 2050 5475 2200
+Wire Wire Line
+	5475 2200 5300 2200
+Connection ~ 5300 2200
+Wire Wire Line
+	5275 1750 5275 1575
+Wire Wire Line
+	5475 1750 5475 1600
+Wire Wire Line
+	5475 1300 5475 1200
+Wire Wire Line
+	5475 1200 5800 1200
+Wire Wire Line
+	5275 1275 5275 1200
+Wire Wire Line
+	5275 1200 5500 1200
+Connection ~ 5500 1200
+Wire Wire Line
+	6100 2375 6100 2075
+Wire Wire Line
+	6325 2075 6325 2200
+Wire Wire Line
+	6325 2200 6100 2200
+Connection ~ 6100 2200
+Wire Wire Line
+	6100 1775 6100 1575
+Wire Wire Line
+	6325 1575 6325 1775
+Wire Wire Line
+	6325 1775 6350 1775
+Wire Wire Line
+	6100 1275 6100 1200
+Wire Wire Line
+	6100 1200 6600 1200
+Wire Wire Line
+	6325 1200 6325 1275
+Connection ~ 6325 1200
+$Comp
+L Conn_02x01 J10
+U 1 1 5B3686DA
+P 5500 2400
+F 0 "J10" H 5550 2500 50  0000 C CNN
+F 1 "Conn_02x01" H 5550 2300 50  0000 C CNN
+F 2 "Connect:SMD_Pads_1x2" H 5500 2400 50  0001 C CNN
+F 3 "" H 5500 2400 50  0001 C CNN
+	1    5500 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1200 5800 2400
+Wire Wire Line
+	6600 1200 6600 2375
+Text Notes 5150 2700 0    60   Italic 0
+{For jumping to led pads on the FCU}
+$EndSCHEMATC

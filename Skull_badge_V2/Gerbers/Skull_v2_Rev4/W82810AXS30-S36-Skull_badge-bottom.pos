@@ -1,0 +1,40 @@
+### Module positions - created on Sunday, July 01, 2018 at 08:50:34 PM ###
+### Printed by Pcbnew version kicad (5.0.0-rc2-dev-26-g0d794b2)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                         Package                                          PosX       PosY       Rot  Side
+C15       0.1uF                       C_0805                                        95.4060  -148.8180  135.0000  bottom
+C16       0.1uF                       C_0805                                       154.8420  -149.3260  225.0000  bottom
+C17       0.1uF                       C_0805                                        94.5000   -88.7500   45.0000  bottom
+C18       0.1uF                       C_0805                                       155.8580   -89.3820  315.0000  bottom
+C19       0.1uF                       C_0805                                        88.8020  -156.4380  135.0000  bottom
+C20       0.1uF                       C_0805                                       161.9540  -156.9460  225.0000  bottom
+C21       0.1uF                       C_0805                                        86.7700   -81.2540   45.0000  bottom
+C22       0.1uF                       C_0805                                       164.4940   -81.7620  315.0000  bottom
+C23       0.1uF                       C_0805                                        80.6740  -163.5500  135.0000  bottom
+C24       0.1uF                       C_0805                                       170.0820  -164.5660  225.0000  bottom
+C25       0.1uF                       C_0805                                        80.1660   -74.6500   45.0000  bottom
+C26       0.1uF                       C_0805                                       172.6220   -74.1420  315.0000  bottom
+C27       0.1uF                       C_0805                                        73.0540  -170.6620  135.0000  bottom
+C28       0.1uF                       C_0805                                       178.7180  -172.6940  225.0000  bottom
+C29       0.1uF                       C_0805                                        73.5620   -67.5380   45.0000  bottom
+C30       0.1uF                       C_0805                                       180.7500   -66.5220  315.0000  bottom
+R21       300                         R_0805                                        98.8001   -83.7652    0.0000  bottom
+U9        WS2812B                     LED_WS2812B-PLCC4_LG_PADS                     92.3580  -152.8820  135.0000  bottom
+U10       WS2812B                     LED_WS2812B-PLCC4_LG_PADS                    158.3980  -152.8820  225.0000  bottom
+U11       WS2812B                     LED_WS2812B-PLCC4_LG_PADS                     90.3260   -84.8100   45.0000  bottom
+U12       WS2812B                     LED_WS2812B-PLCC4_LG_PADS                    159.9220   -85.8260  315.0000  bottom
+U13       WS2812B                     LED_WS2812B-PLCC4_LG_PADS                     85.2460  -159.4860  135.0000  bottom
+U14       WS2812B                     LED_WS2812B-PLCC4_LG_PADS                    166.0180  -160.5020  225.0000  bottom
+U15       WS2812B                     LED_WS2812B-PLCC4_LG_PADS                     83.7220   -77.6980   45.0000  bottom
+U16       WS2812B                     LED_WS2812B-PLCC4_LG_PADS                    168.5580   -78.7140  315.0000  bottom
+U17       WS2812B                     LED_WS2812B-PLCC4_LG_PADS                     77.1180  -167.1060  135.0000  bottom
+U18       WS2812B                     LED_WS2812B-PLCC4_LG_PADS                    174.6540  -168.6300  225.0000  bottom
+U19       WS2812B                     LED_WS2812B-PLCC4_LG_PADS                     77.1180   -71.0940   45.0000  bottom
+U20       WS2812B                     LED_WS2812B-PLCC4_LG_PADS                    176.1780   -71.0940  315.0000  bottom
+U21       WS2812B                     LED_WS2812B-PLCC4_LG_PADS                     69.4980  -174.2180  135.0000  bottom
+U22       WS2812B                     LED_WS2812B-PLCC4_LG_PADS                    182.2740  -176.2500  225.0000  bottom
+U23       WS2812B                     LED_WS2812B-PLCC4_LG_PADS                     70.2600   -64.4900   45.0000  bottom
+U24       WS2812B                     LED_WS2812B-PLCC4_LG_PADS                    184.8140   -63.4740  315.0000  bottom
+X1        Badgelife_shitty_connector  Socket_Strip_Straight_2x02_Pitch2.54mm_SMD   126.6291  -122.1322    0.0000  bottom
+## End

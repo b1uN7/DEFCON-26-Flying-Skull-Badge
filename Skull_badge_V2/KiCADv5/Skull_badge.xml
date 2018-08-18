@@ -1,0 +1,1767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/rscote/Dropbox/DC26/FlyingSkull/gitlab/Skull_badge_V2/Skull_badge.sch</source>
+    <date>Monday, June 11, 2018 'PMt' 04:22:07 PM</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Skull Badge</title>
+        <company/>
+        <rev>V0</rev>
+        <date>2018-05-14</date>
+        <source>Skull_badge.sch</source>
+        <comment number="1" value="Drawn by: Hemal Chevli"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/RGB_LEDs/" tstamps="/5AD72CF3/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RGB_LED.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/RevisionHistory/" tstamps="/5AEEC34A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RevisionHistory.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="XA1">
+      <value>Arduino_Uno_Shield</value>
+      <footprint>Skull_badge:UNO_headersICSP</footprint>
+      <libsource lib="Skull_badge-cache" part="Arduino_Uno_Shield"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AD7253F</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_Push</value>
+      <footprint>Skull_badge:smd_push</footprint>
+      <fields>
+        <field name="manf#">MJTP1106STR</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AD725ED</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1M</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AD7376B</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>2M</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AD73906</tstamp>
+    </comp>
+    <comp ref="LS1">
+      <value>Speaker_Crystal</value>
+      <footprint>Skull_badge:piezo_KJL_1325</footprint>
+      <fields>
+        <field name="manf#">KLJ-1325</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="Speaker_Crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AD73DFC</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Flight Controller Board</value>
+      <footprint>Skull_badge:Socket_Strip_Straight_2x05_Pitch2.54mm</footprint>
+      <libsource lib="Skull_badge-cache" part="Conn_01x10"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AD80917</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>BtmL</value>
+      <footprint>Skull_badge:Wire_Pads_1x2_4x3mm_Extended</footprint>
+      <libsource lib="Skull_badge-cache" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AD80DBB</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>BtmR</value>
+      <footprint>Skull_badge:Wire_Pads_1x2_4x3mm_Extended</footprint>
+      <libsource lib="Skull_badge-cache" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AD80F5C</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>TopR</value>
+      <footprint>Skull_badge:Wire_Pads_1x2_4x3mm_Extended</footprint>
+      <libsource lib="Skull_badge-cache" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AD80FCB</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>TopL</value>
+      <footprint>Skull_badge:Wire_Pads_1x2_4x3mm_Extended</footprint>
+      <libsource lib="Skull_badge-cache" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AD81029</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_Push</value>
+      <footprint>Skull_badge:smd_push</footprint>
+      <fields>
+        <field name="manf#">MJTP1106STR</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADAE276</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_Push</value>
+      <footprint>Skull_badge:smd_push</footprint>
+      <fields>
+        <field name="manf#">MJTP1106STR</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADAE494</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_Push</value>
+      <footprint>Skull_badge:smd_push</footprint>
+      <fields>
+        <field name="manf#">MJTP1106STR</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADAE4A6</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1M</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADAE6A4</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Push</value>
+      <footprint>Skull_badge:smd_push</footprint>
+      <fields>
+        <field name="manf#">MJTP1106STR</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADB091A</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADB1C46</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Push</value>
+      <footprint>Skull_badge:smd_push</footprint>
+      <fields>
+        <field name="manf#">MJTP1106STR</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADB1D20</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1K</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADB2EAB</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1K</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADB2F59</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1K</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADB305B</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1K</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADB3161</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>1K</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADB3219</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1K</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADB3323</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>Badgelife_shitty_connector</value>
+      <footprint>Skull_badge:Badgelife-Shitty-2x2</footprint>
+      <libsource lib="Skull_badge-cache" part="Badgelife_shitty_connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ADC7D3E</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_OTG</value>
+      <footprint>Skull_badge:USB_Micro-B_10103594-0001LF</footprint>
+      <fields>
+        <field name="manf#">10103594-0001LF</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="USB_OTG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE21F5B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>LiPo</value>
+      <footprint>Skull_badge:JST_PH_S2B-PH-K_02x2.00mm_Angled</footprint>
+      <libsource lib="Skull_badge-cache" part="Conn_01x02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE24CB8</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Skull_badge:Fuse_SMD2920</footprint>
+      <fields>
+        <field name="manf#">2920L500/16MR</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE24CC0</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE2DA3F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE2DB32</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1M</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE2F277</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22pF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE2FE67</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22pF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE2FF64</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE307AA</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE30845</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATMEGA32U4-AU</value>
+      <footprint>Skull_badge:TQFP-44_10x10mm_Pitch0.8mm</footprint>
+      <fields>
+        <field name="manf#">ATMEGA32U4-AUR</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="ATMEGA32U4-AU"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE33649</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE5505A</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE564B2</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE5AD84</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>L</value>
+      <footprint>Inductors_SMD:L_0805</footprint>
+      <fields>
+        <field name="manf#">BLM21AG601SN1D</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE6372E</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE64825</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE6544A</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LOGO</value>
+      <footprint>Skull_badge:Skull18_150x150</footprint>
+      <libsource lib="Skull_badge-cache" part="LOGO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE328BD</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207053</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE46619</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz</value>
+      <footprint>Skull_badge:Q_49U3HMS</footprint>
+      <fields>
+        <field name="manf#">ABLS-16.000MHZ-B4-T</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="Crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE78062</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>ARD_SW</value>
+      <footprint>Skull_badge:switch_MHSS1105</footprint>
+      <fields>
+        <field name="manf#">MHSS1105</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE7A2DF</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>FLT CTRL SW</value>
+      <footprint>Skull_badge:switch_MHSS1105</footprint>
+      <fields>
+        <field name="manf#">MHSS1105</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AE7AA14</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AEC4060</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>PWR</value>
+      <footprint>Skull_badge:LED_0805</footprint>
+      <fields>
+        <field name="manf#">150080YS75000</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF92B20</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF93969</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>RX</value>
+      <footprint>Skull_badge:LED_0805</footprint>
+      <fields>
+        <field name="manf#">150080YS75000</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF96F0C</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF97B1D</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>TX</value>
+      <footprint>Skull_badge:LED_0805</footprint>
+      <fields>
+        <field name="manf#">150080YS75000</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF99385</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1K</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF9938C</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>L</value>
+      <footprint>Skull_badge:LED_0805</footprint>
+      <fields>
+        <field name="manf#">150080YS75000</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF9A68E</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>1K</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AF9A694</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AFBC352</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>Skull_badge:smd_push</footprint>
+      <fields>
+        <field name="manf#">MJTP1106STR</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AFBFB81</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>Lime_pepper</value>
+      <footprint>Skull_badge:lime_pepper</footprint>
+      <libsource lib="Skull_badge-cache" part="LOGO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B042D99</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TPS63001</value>
+      <footprint>Housings_SON:VSON-10-1EP_3x3mm_Pitch0.5mm_ThermalPad</footprint>
+      <fields>
+        <field name="manf#">TPS63002DRCT</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="TPS63001"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B11B96B</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B11FFDD</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1207CC</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B120BEB</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B121620</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>2.2uH</value>
+      <footprint>Skull_badge:VLF4012A</footprint>
+      <fields>
+        <field name="manf#">VLF4012AT-2R2M1R5</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="L"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B122B30</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B13D64F</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>SPI</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="Skull_badge-cache" part="Conn_01x03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B128701</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>WS2812B</value>
+      <footprint>Skull_badge:LED_WS2812B-PLCC4</footprint>
+      <fields>
+        <field name="manf#">1655</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="WS2812B"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD75F0A</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>WS2812B</value>
+      <footprint>Skull_badge:LED_WS2812B-PLCC4</footprint>
+      <fields>
+        <field name="manf#">1655</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="WS2812B"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD75FDE</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207045</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD766D5</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207053</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD76AED</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>WS2812B</value>
+      <footprint>Skull_badge:LED_WS2812B-PLCC4</footprint>
+      <fields>
+        <field name="manf#">1655</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="WS2812B"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD76FB4</tstamp>
+    </comp>
+    <comp ref="U23">
+      <value>WS2812B</value>
+      <footprint>Skull_badge:LED_WS2812B-PLCC4</footprint>
+      <fields>
+        <field name="manf#">1655</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="WS2812B"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD76FBA</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207054</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD76FC6</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207055</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD76FD8</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>WS2812B</value>
+      <footprint>Skull_badge:LED_WS2812B-PLCC4</footprint>
+      <fields>
+        <field name="manf#">1655</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="WS2812B"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77304</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>WS2812B</value>
+      <footprint>Skull_badge:LED_WS2812B-PLCC4</footprint>
+      <fields>
+        <field name="manf#">1655</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="WS2812B"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD7730A</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207056</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77316</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207057</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77328</tstamp>
+    </comp>
+    <comp ref="U20">
+      <value>WS2812B</value>
+      <footprint>Skull_badge:LED_WS2812B-PLCC4</footprint>
+      <fields>
+        <field name="manf#">1655</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="WS2812B"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77344</tstamp>
+    </comp>
+    <comp ref="U24">
+      <value>WS2812B</value>
+      <footprint>Skull_badge:LED_WS2812B-PLCC4</footprint>
+      <fields>
+        <field name="manf#">1655</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="WS2812B"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD7734A</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207058</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77356</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207059</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77368</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>WS2812B</value>
+      <footprint>Skull_badge:LED_WS2812B-PLCC4</footprint>
+      <fields>
+        <field name="manf#">1655</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="WS2812B"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77D84</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>WS2812B</value>
+      <footprint>Skull_badge:LED_WS2812B-PLCC4</footprint>
+      <fields>
+        <field name="manf#">1655</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="WS2812B"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77D8A</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207060</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77D96</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207046</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77DA8</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>WS2812B</value>
+      <footprint>Skull_badge:LED_WS2812B-PLCC4</footprint>
+      <fields>
+        <field name="manf#">1655</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="WS2812B"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77DC4</tstamp>
+    </comp>
+    <comp ref="U21">
+      <value>WS2812B</value>
+      <footprint>Skull_badge:LED_WS2812B-PLCC4</footprint>
+      <fields>
+        <field name="manf#">1655</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="WS2812B"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77DCA</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207047</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77DD6</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207048</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77DE8</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>WS2812B</value>
+      <footprint>Skull_badge:LED_WS2812B-PLCC4</footprint>
+      <fields>
+        <field name="manf#">1655</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="WS2812B"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77E04</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>WS2812B</value>
+      <footprint>Skull_badge:LED_WS2812B-PLCC4</footprint>
+      <fields>
+        <field name="manf#">1655</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="WS2812B"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77E0A</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207049</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77E16</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207050</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77E28</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>WS2812B</value>
+      <footprint>Skull_badge:LED_WS2812B-PLCC4</footprint>
+      <fields>
+        <field name="manf#">1655</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="WS2812B"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77E44</tstamp>
+    </comp>
+    <comp ref="U22">
+      <value>WS2812B</value>
+      <footprint>Skull_badge:LED_WS2812B-PLCC4</footprint>
+      <fields>
+        <field name="manf#">1655</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="WS2812B"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77E4A</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207051</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77E56</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>0.1uF</value>
+      <footprint>Skull_badge:C_0805</footprint>
+      <fields>
+        <field name="manf#">885012207052</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="C_Small"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5AD77E68</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>300</value>
+      <footprint>Skull_badge:R_0805</footprint>
+      <fields>
+        <field name="manf#">RC0805JR-07300RL</field>
+      </fields>
+      <libsource lib="Skull_badge-cache" part="R"/>
+      <sheetpath names="/RGB_LEDs/" tstamps="/5AD72CF3/"/>
+      <tstamp>5ADC5915</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Skull_badge-cache" part="ATMEGA16U4-AU">
+      <aliases>
+        <alias>ATMEGA16U4RC-AU</alias>
+        <alias>ATMEGA32U4-AU</alias>
+        <alias>ATMEGA32U4RC-AU</alias>
+      </aliases>
+      <description>TQFP44, 16K Flash, 1.25K SRAM, 512B EEPROM, USB2.0</description>
+      <docs>http://www.atmel.com/images/atmel-7766-8-bit-avr-atmega16u4-32u4_%20datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP44</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA16U4-AU</field>
+        <field name="Footprint">TQFP44</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(INT6/AIN0)PE6_D7" type="BiDi"/>
+        <pin num="2" name="UVCC" type="power_in"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGND" type="passive"/>
+        <pin num="6" name="UCAP" type="passive"/>
+        <pin num="7" name="VBUS" type="passive"/>
+        <pin num="8" name="(SS/PCINT0)PB0_RXLED" type="BiDi"/>
+        <pin num="9" name="(SCLK/PCINT1)PB1" type="BiDi"/>
+        <pin num="10" name="(PDI/MOSI/PCINT2)PB2" type="BiDi"/>
+        <pin num="11" name="(PDO/MISO/PCINT3)PB3" type="BiDi"/>
+        <pin num="12" name="(OC0A/OC1C/~RTS~/PCINT7)PB7_D11" type="BiDi"/>
+        <pin num="13" name="~RESET~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="output"/>
+        <pin num="17" name="XTAL1" type="input"/>
+        <pin num="18" name="(OC0B/SCL/INT0)PD0_D3" type="BiDi"/>
+        <pin num="19" name="(SDA/INT1)PD1_D2" type="BiDi"/>
+        <pin num="20" name="(RXD/INT2)PD2_D0" type="BiDi"/>
+        <pin num="21" name="(TXD/INT3)PD3_D1" type="BiDi"/>
+        <pin num="22" name="(XCK1/~CTS~)PD5_TX_LED" type="BiDi"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="(ICP2/ADC8)PD4_D4" type="BiDi"/>
+        <pin num="26" name="(T1/~OC4D~/ADC9)PD6_D12" type="BiDi"/>
+        <pin num="27" name="(T0/OC4D/ADC10)PD7_D6" type="BiDi"/>
+        <pin num="28" name="(ADC11/PCINT4)PB4_D8" type="BiDi"/>
+        <pin num="29" name="(ADC12/OC1A/~OC4B~/PCINT12)PB5_D9" type="BiDi"/>
+        <pin num="30" name="(ADC13/OC1B/OC4B/PCINT13)PB6_D10" type="BiDi"/>
+        <pin num="31" name="(OC3A/~OC4A~)PC6_D5" type="BiDi"/>
+        <pin num="32" name="(ICP3/CLK0/OC4A)PC7_D13" type="BiDi"/>
+        <pin num="33" name="(~HWB~)PE2" type="BiDi"/>
+        <pin num="34" name="VCC" type="power_in"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="(ADC7/TDI)PF7_A0" type="BiDi"/>
+        <pin num="37" name="(ADC6/TDO)PF6_A1" type="BiDi"/>
+        <pin num="38" name="(ADC5/TMS)PF5_A2" type="BiDi"/>
+        <pin num="39" name="(ADC4/TCK)PF4_A3" type="BiDi"/>
+        <pin num="40" name="(ADC1)PF1_A4" type="BiDi"/>
+        <pin num="41" name="(ADC0)PF0_A5" type="BiDi"/>
+        <pin num="42" name="AREF" type="passive"/>
+        <pin num="43" name="GND" type="power_in"/>
+        <pin num="44" name="AVCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="Arduino_Uno_Shield">
+      <footprints>
+        <fp>Arduino_Uno_Shield</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">XA</field>
+        <field name="Value">Arduino_Uno_Shield</field>
+      </fields>
+      <pins>
+        <pin num="5V" name="5V" type="input"/>
+        <pin num="3V3" name="3.3V" type="power_in"/>
+        <pin num="A0" name="A0" type="BiDi"/>
+        <pin num="A1" name="A1" type="BiDi"/>
+        <pin num="A2" name="A2" type="BiDi"/>
+        <pin num="A3" name="A3" type="BiDi"/>
+        <pin num="A4" name="A4" type="BiDi"/>
+        <pin num="A5" name="A5" type="BiDi"/>
+        <pin num="AREF" name="AREF" type="input"/>
+        <pin num="D0" name="D0_RX0" type="BiDi"/>
+        <pin num="D1" name="D1_TX0" type="BiDi"/>
+        <pin num="D2" name="D2_INT0" type="BiDi"/>
+        <pin num="D3" name="D3_INT1" type="BiDi"/>
+        <pin num="D4" name="D4" type="BiDi"/>
+        <pin num="D5" name="D5" type="BiDi"/>
+        <pin num="D6" name="D6" type="BiDi"/>
+        <pin num="D7" name="D7" type="BiDi"/>
+        <pin num="D8" name="D8" type="BiDi"/>
+        <pin num="D9" name="D9" type="BiDi"/>
+        <pin num="D10" name="D10_CS" type="BiDi"/>
+        <pin num="D11" name="D11" type="BiDi"/>
+        <pin num="D12" name="D12" type="BiDi"/>
+        <pin num="D13" name="D13" type="BiDi"/>
+        <pin num="GND1" name="GND" type="power_in"/>
+        <pin num="GND2" name="GND" type="power_in"/>
+        <pin num="IO" name="IOREF" type="input"/>
+        <pin num="RST" name="RESET" type="openCol"/>
+        <pin num="SCL" name="SCL" type="BiDi"/>
+        <pin num="SDA" name="SDA" type="BiDi"/>
+        <pin num="SP1" name="SPI_MISO" type="input"/>
+        <pin num="SP2" name="SPI_5V" type="power_in"/>
+        <pin num="SP3" name="SPI_SCK" type="output"/>
+        <pin num="SP4" name="SPI_MOSI" type="output"/>
+        <pin num="SP5" name="SPI_RESET" type="openCol"/>
+        <pin num="SP6" name="SPI_GND" type="power_in"/>
+        <pin num="VIN" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="Badgelife_shitty_connector">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Badgelife_shitty_connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="C_Small">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="Conn_01x02">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="Conn_01x03">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="Conn_01x10">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="Crystal">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="Fuse">
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="L">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="LED">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="LOGO">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LOGO</field>
+      </fields>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="SW_Push">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="SW_SPDT">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="Speaker_Crystal">
+      <aliases>
+        <alias>Speaker_Ultrasound</alias>
+      </aliases>
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">Speaker_Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="TPS63001">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS63001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="input"/>
+        <pin num="2" name="L2" type="input"/>
+        <pin num="3" name="PGND" type="input"/>
+        <pin num="4" name="L1" type="input"/>
+        <pin num="5" name="VIN" type="input"/>
+        <pin num="6" name="EN" type="input"/>
+        <pin num="7" name="PS/SYNC" type="input"/>
+        <pin num="8" name="VINA" type="input"/>
+        <pin num="9" name="GND" type="input"/>
+        <pin num="10" name="FB" type="input"/>
+        <pin num="11" name="EP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="USB_OTG">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_OTG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Skull_badge-cache" part="WS2812B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">WS2812B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="input"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Skull_badge-cache">
+      <uri>/Users/rscote/Dropbox/DC26/FlyingSkull/gitlab/Skull_badge_V2/Skull_badge-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/LCD_RESET">
+      <node ref="U1" pin="28"/>
+      <node ref="XA1" pin="D8"/>
+    </net>
+    <net code="2" name="/LCD_DC">
+      <node ref="XA1" pin="D9"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="3" name="/LCD_CS">
+      <node ref="XA1" pin="D10"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="4" name="/D11">
+      <node ref="U1" pin="12"/>
+      <node ref="XA1" pin="D11"/>
+    </net>
+    <net code="5" name="/D3_SCL">
+      <node ref="U1" pin="18"/>
+      <node ref="XA1" pin="SCL"/>
+      <node ref="X1" pin="3"/>
+      <node ref="XA1" pin="D3"/>
+    </net>
+    <net code="6" name="/D2_SDA">
+      <node ref="XA1" pin="D2"/>
+      <node ref="XA1" pin="SDA"/>
+      <node ref="X1" pin="4"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="7" name="/TOUCH_IRQ">
+      <node ref="XA1" pin="D6"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="8" name="/A3">
+      <node ref="XA1" pin="A3"/>
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="9" name="/A2">
+      <node ref="U1" pin="38"/>
+      <node ref="XA1" pin="A2"/>
+    </net>
+    <net code="10" name="/A1">
+      <node ref="U1" pin="37"/>
+      <node ref="XA1" pin="A1"/>
+    </net>
+    <net code="11" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="17"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C3-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="13" name="/Batt_V">
+      <node ref="C14" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="XA1" pin="A5"/>
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="14" name="/D12">
+      <node ref="XA1" pin="D12"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="15" name="/D0">
+      <node ref="U1" pin="20"/>
+      <node ref="XA1" pin="D0"/>
+    </net>
+    <net code="16" name="/D1">
+      <node ref="XA1" pin="D1"/>
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="17" name="/D13">
+      <node ref="XA1" pin="D13"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="18" name="/Button_ADC">
+      <node ref="SW7" pin="2"/>
+      <node ref="SW8" pin="2"/>
+      <node ref="SW9" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="SW5" pin="2"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="U1" pin="36"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="XA1" pin="A0"/>
+    </net>
+    <net code="19" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="20" name="/TOUCH_CS">
+      <node ref="XA1" pin="D7"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(C5-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="22" name="/SD_CS">
+      <node ref="XA1" pin="A4"/>
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="23" name="/Piezo">
+      <node ref="U1" pin="31"/>
+      <node ref="LS1" pin="1"/>
+      <node ref="XA1" pin="D5"/>
+    </net>
+    <net code="24" name="/+4.2V_FLT">
+      <node ref="R10" pin="1"/>
+      <node ref="SW3" pin="3"/>
+      <node ref="J7" pin="9"/>
+    </net>
+    <net code="25" name="/TL1">
+      <node ref="J7" pin="8"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="26" name="Net-(SW3-Pad1)">
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="27" name="Net-(SW2-Pad3)">
+      <node ref="SW2" pin="3"/>
+    </net>
+    <net code="28" name="Net-(XA1-Pad5V)">
+      <node ref="XA1" pin="5V"/>
+    </net>
+    <net code="29" name="Net-(L2-Pad1)">
+      <node ref="U2" pin="4"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="30" name="Net-(C11-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="31" name="GND">
+      <node ref="R19" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="X1" pin="2"/>
+      <node ref="U1" pin="23"/>
+      <node ref="U1" pin="43"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U1" pin="15"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U20" pin="3"/>
+      <node ref="U24" pin="3"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="XA1" pin="SP6"/>
+      <node ref="XA1" pin="GND1"/>
+      <node ref="XA1" pin="GND2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="J7" pin="10"/>
+      <node ref="LS1" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R20" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="35"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U23" pin="3"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U21" pin="3"/>
+      <node ref="U17" pin="3"/>
+      <node ref="U22" pin="3"/>
+      <node ref="U18" pin="3"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="U14" pin="3"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U10" pin="3"/>
+      <node ref="C27" pin="2"/>
+      <node ref="U9" pin="3"/>
+      <node ref="C30" pin="2"/>
+      <node ref="U19" pin="3"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U11" pin="3"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U15" pin="3"/>
+      <node ref="C29" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="5"/>
+      <node ref="U12" pin="3"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="U16" pin="3"/>
+      <node ref="U13" pin="3"/>
+    </net>
+    <net code="32" name="/RGB_DATA">
+      <node ref="XA1" pin="D4"/>
+      <node ref="U1" pin="25"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="33" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="34" name="Net-(R18-Pad1)">
+      <node ref="R19" pin="2"/>
+      <node ref="SW9" pin="1"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="35" name="Net-(R17-Pad1)">
+      <node ref="SW8" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="36" name="Net-(R16-Pad1)">
+      <node ref="R17" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="SW7" pin="1"/>
+    </net>
+    <net code="37" name="Net-(R15-Pad1)">
+      <node ref="SW6" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="38" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="39" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="40" name="Net-(L2-Pad2)">
+      <node ref="L2" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="41" name="/SCK">
+      <node ref="XA1" pin="SP3"/>
+      <node ref="U1" pin="9"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="42" name="/MOSI">
+      <node ref="XA1" pin="SP4"/>
+      <node ref="J8" pin="2"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="43" name="/MISO">
+      <node ref="J8" pin="3"/>
+      <node ref="XA1" pin="SP1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="44" name="/+4.2V_ARD">
+      <node ref="SW2" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R5" pin="2"/>
+      <node ref="XA1" pin="VIN"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="45" name="+3V3">
+      <node ref="U16" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U18" pin="1"/>
+      <node ref="U21" pin="1"/>
+      <node ref="U15" pin="1"/>
+      <node ref="U22" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="U24" pin="1"/>
+      <node ref="U17" pin="1"/>
+      <node ref="U23" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U14" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U12" pin="1"/>
+      <node ref="U10" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U19" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="U11" pin="1"/>
+      <node ref="U13" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="U20" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="XA1" pin="IO"/>
+      <node ref="XA1" pin="3V3"/>
+      <node ref="XA1" pin="SP2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U1" pin="34"/>
+      <node ref="U1" pin="14"/>
+      <node ref="D3" pin="2"/>
+      <node ref="X1" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="46" name="Net-(D3-Pad1)">
+      <node ref="R9" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="47" name="Net-(D1-Pad1)">
+      <node ref="U1" pin="8"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="48" name="Net-(D1-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="49" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="50" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="51" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="52" name="Net-(L1-Pad2)">
+      <node ref="U1" pin="24"/>
+      <node ref="U1" pin="44"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="53" name="/AREF">
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="42"/>
+      <node ref="XA1" pin="AREF"/>
+    </net>
+    <net code="54" name="/+4.2V">
+      <node ref="F1" pin="1"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="55" name="/VBUS">
+      <node ref="J1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="56" name="/D+">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="57" name="/D-">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="58" name="/~RESET">
+      <node ref="U1" pin="13"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="XA1" pin="RST"/>
+      <node ref="R3" pin="2"/>
+      <node ref="XA1" pin="SP5"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="59" name="/xD+">
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="60" name="/xD-">
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="61" name="/TR1">
+      <node ref="J3" pin="1"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="62" name="/TR2">
+      <node ref="J7" pin="1"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="63" name="/BR1">
+      <node ref="J7" pin="4"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="64" name="/BR2">
+      <node ref="J7" pin="3"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="65" name="/BL2">
+      <node ref="J7" pin="5"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="66" name="/BL1">
+      <node ref="J4" pin="1"/>
+      <node ref="J7" pin="6"/>
+    </net>
+    <net code="67" name="/TL2">
+      <node ref="J6" pin="2"/>
+      <node ref="J7" pin="7"/>
+    </net>
+    <net code="68" name="Net-(U18-Pad2)">
+      <node ref="U22" pin="4"/>
+      <node ref="U18" pin="2"/>
+    </net>
+    <net code="69" name="Net-(U10-Pad2)">
+      <node ref="U14" pin="4"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="70" name="Net-(U16-Pad2)">
+      <node ref="U20" pin="4"/>
+      <node ref="U16" pin="2"/>
+    </net>
+    <net code="71" name="Net-(U12-Pad4)">
+      <node ref="U23" pin="2"/>
+      <node ref="U12" pin="4"/>
+    </net>
+    <net code="72" name="Net-(R21-Pad1)">
+      <node ref="R21" pin="1"/>
+      <node ref="U11" pin="4"/>
+    </net>
+    <net code="73" name="Net-(U15-Pad2)">
+      <node ref="U19" pin="4"/>
+      <node ref="U15" pin="2"/>
+    </net>
+    <net code="74" name="Net-(U20-Pad2)">
+      <node ref="U20" pin="2"/>
+      <node ref="U24" pin="4"/>
+    </net>
+    <net code="75" name="Net-(U17-Pad2)">
+      <node ref="U21" pin="4"/>
+      <node ref="U17" pin="2"/>
+    </net>
+    <net code="76" name="Net-(U13-Pad4)">
+      <node ref="U13" pin="4"/>
+      <node ref="U9" pin="2"/>
+    </net>
+    <net code="77" name="Net-(U21-Pad2)">
+      <node ref="U21" pin="2"/>
+    </net>
+    <net code="78" name="Net-(U22-Pad2)">
+      <node ref="U22" pin="2"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="79" name="Net-(U10-Pad4)">
+      <node ref="U24" pin="2"/>
+      <node ref="U10" pin="4"/>
+    </net>
+    <net code="80" name="Net-(U14-Pad2)">
+      <node ref="U14" pin="2"/>
+      <node ref="U18" pin="4"/>
+    </net>
+    <net code="81" name="Net-(U13-Pad2)">
+      <node ref="U17" pin="4"/>
+      <node ref="U13" pin="2"/>
+    </net>
+    <net code="82" name="Net-(U11-Pad2)">
+      <node ref="U15" pin="4"/>
+      <node ref="U11" pin="2"/>
+    </net>
+    <net code="83" name="Net-(U12-Pad2)">
+      <node ref="U16" pin="4"/>
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="84" name="Net-(U19-Pad2)">
+      <node ref="U19" pin="2"/>
+      <node ref="U23" pin="4"/>
+    </net>
+  </nets>
+</export>

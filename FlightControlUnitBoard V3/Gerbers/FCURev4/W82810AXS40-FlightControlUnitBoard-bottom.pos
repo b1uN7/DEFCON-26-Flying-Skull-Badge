@@ -1,0 +1,10 @@
+### Module positions - created on Sunday, July 01, 2018 at 09:27:11 PM ###
+### Printed by Pcbnew version kicad (5.0.0-rc2-dev-26-g0d794b2)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+LED3      RED       LED_0805           199.3900   -78.1050   90.0000  bottom
+LED4      GREEN     LED_0805           197.1000  -101.6000  180.0000  bottom
+R3        47        R_0805             199.5250   -73.8000  270.0000  bottom
+R4        33        R_0805             197.7500  -105.6500    0.0000  bottom
+## End

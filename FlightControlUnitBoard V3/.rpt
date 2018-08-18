@@ -1,0 +1,14 @@
+** Drc report for /Users/rscote/Dropbox/DC26/FlyingSkull/gitlab/FlightControlUnitBoard V2/FlightControlUnitBoard.kicad_pcb **
+** Created on 2018-05-28 08:54:14 **
+
+** Found 2 DRC errors **
+ErrType(4): Track near pad
+    @ (150.250 mm,77.250 mm): Track 0.750 mm, net [Net-(J1-Pad3)] (3) on layer B.Cu, length: 13.750 mm
+    @ (152.000 mm,85.000 mm): Pad 1 on B.Cu, Non-copper of J3
+ErrType(4): Track near pad
+    @ (150.250 mm,91.000 mm): Track 0.750 mm, net [Net-(J1-Pad3)] (3) on layer B.Cu, length: 1.414 mm
+    @ (152.000 mm,91.000 mm): Pad 2 on B.Cu, Non-copper of J3
+
+** Found 0 unconnected pads **
+
+** End of Report **

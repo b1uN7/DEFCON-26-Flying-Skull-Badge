@@ -1,0 +1,23 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,LED generic,LED,D1 D4,GREEN,LED_0805,2,
+2,LED generic,LED,D2 D3,RED,LED_0805,2,
+3,"Generic connector, single row, 01x02",Conn_01x02_Male,J2 J3 J4 J5 J6,Conn_01x02_Male,Wire_Pads_1x2_4x3mm,5,
+4,"Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes.",Conn_02x01,J10 J11,Conn_02x01,SMD_Pads_1x2,2,
+5,"Generic connector, double row, 02x01, this symbol is compatible with counter-clockwise, top-bottom and odd-even numbering schemes.",Conn_02x01,J7 J8 J9,Conn_02x01,Pin_Header_Straight_1x02_Pitch2.54mm,3,
+6,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)",Conn_02x05_Odd_Even,J1,Conn_02x05_Odd_Even,Pin_Header_Straight_2x05_Pitch2.54mm,1,
+7,Resistor,R,R1 R2 R3 R4,33,R_0805,4,
+
+
+
+
+
+Component Groups:,7
+Component Count:,19
+Fitted Components:,19
+Number of PCBs:,1
+Total components:,19
+Schematic Version:,0
+Schematic Date:,4/24/18
+BoM Date:,"Friday, June 29, 2018 'PMt' 12:47:06 PM"
+Schematic Source:,/Users/rscote/Dropbox/DC26/FlyingSkull/gitlab/FlightControlUnitBoard V3/FlightControlUnitBoard.sch
+KiCad Version:,Eeschema 4.0.7

@@ -1,0 +1,28 @@
+Drill report for /Users/rscote/Dropbox/DC26/FlyingSkull/gitlab/Skull_badge_V2/Skull_badge.kicad_pcb
+Created on Sunday, July 01, 2018 at 08:50:25 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'Skull_badge-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.30mm  0.012"  (5 holes)
+    T2  0.40mm  0.016"  (146 holes)
+    T3  0.65mm  0.026"  (2 holes)  (with 2 slots)
+    T4  0.70mm  0.028"  (2 holes)  (with 2 slots)
+    T5  1.00mm  0.039"  (15 holes)
+    T6  1.02mm  0.040"  (38 holes)
+
+    Total plated holes count 208
+
+
+Drill file 'Skull_badge-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.90mm  0.035"  (2 holes)
+
+    Total unplated holes count 2

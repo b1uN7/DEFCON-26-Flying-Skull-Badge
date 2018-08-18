@@ -1,0 +1,26 @@
+Drill report for /Users/rscote/Dropbox/DC26/FlyingSkull/gitlab/Addon_board/Addon_board.kicad_pcb
+Created on Monday, July 02, 2018 'PMt' 09:22:18 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'Addon_board.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (45 holes)
+    T2  0.76mm  0.030"  (18 holes)
+    T3  1.00mm  0.039"  (7 holes)
+    T4  1.02mm  0.040"  (27 holes)
+
+    Total plated holes count 97
+
+
+Drill file 'Addon_board-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.80mm  0.031"  (6 holes)
+
+    Total unplated holes count 6

@@ -1,0 +1,49 @@
+<openpnp-board version="1.1" name="W82810AXS42-Addon_board.board.xml">
+   <dimensions units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+   <fiducials/>
+   <placements>
+      <placement version="1.2" id="C5" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="198.55" y="-114.9" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C6" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="182.6" y="-142.7" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C7" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="195.453" y="-140.843" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="D1" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="234.061" y="-118.745" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="J4" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="217.9" y="-173.65" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="R1" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="234.315" y="-116.84" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="R2" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="182.25" y="-147.9" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="R3" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="233.0958" y="-150.9268" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="R4" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="233.1974" y="-153.1366" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="R5" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="188.849" y="-115.294" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="R6" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="188.849" y="-117.453" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="U4" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="193.9" y="-115.0" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="U5" side="Top" type="Place" check-fids="false">
+         <location units="Millimeters" x="189.4586" y="-144.526" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="J2" side="Bottom" type="Place" check-fids="false">
+         <location units="Millimeters" x="199.81" y="-122.495" z="0.0" rotation="270.0"/>
+      </placement>
+   </placements>
+   <solder-paste-pads/>
+</openpnp-board>

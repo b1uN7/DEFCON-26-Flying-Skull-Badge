@@ -1,0 +1,627 @@
+## Footprint report - date Sunday, July 01, 2018 at 09:27:31 PM
+## Created by Pcbnew version kicad (5.0.0-rc2-dev-26-g0d794b2)
+## Unit = mm, Angle = deg.
+
+$BeginDESCRIPTION
+
+$BOARD
+upper_left_corner 138.952500 53.264999
+lower_right_corner 214.070001 128.345001
+$EndBOARD
+
+$MODULE "LED1"
+reference "LED1"
+value "GREEN"
+footprint "LEDs:LED_0805"
+attribut smd
+position 197.200000 101.525000  orientation 0.00
+layer front
+$PAD "2"
+Shape Rect Layer front
+position  1.049020  0.000000  size  1.198880  1.198880  orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -1.049020  0.000000  size  1.198880  1.198880  orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED1
+
+$MODULE "R1"
+reference "R1"
+value "33"
+footprint "Resistors_SMD:R_0805"
+attribut smd
+position 197.775000 105.775000  orientation 0.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.950000  0.000000  size  0.700000  1.300000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.950000  0.000000  size  0.700000  1.300000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R1
+
+$MODULE "LED2"
+reference "LED2"
+value "RED"
+footprint "LEDs:LED_0805"
+attribut smd
+position 199.350000 78.075000  orientation 90.00
+layer front
+$PAD "2"
+Shape Rect Layer front
+position  1.049020  0.000000  size  1.198880  1.198880  orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -1.049020  0.000000  size  1.198880  1.198880  orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED2
+
+$MODULE "R2"
+reference "R2"
+value "47"
+footprint "Resistors_SMD:R_0805"
+attribut smd
+position 199.500000 73.925000  orientation 90.00
+layer front
+$PAD "1"
+Shape Rect Layer front
+position -0.950000  0.000000  size  0.700000  1.300000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  0.950000  0.000000  size  0.700000  1.300000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R2
+
+$MODULE "J10"
+reference "J10"
+value "Pin_Header_Straight_1x02"
+footprint "Pin_Headers:Pin_Header_Straight_1x02"
+attribut none
+position 194.700000 109.550000  orientation 270.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position  0.000000  0.000000  size  2.032000  2.032000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.000000 -2.540000  size  2.032000  2.032000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J10
+
+$MODULE "J11"
+reference "J11"
+value "Pin_Header_Straight_1x02"
+footprint "Pin_Headers:Pin_Header_Straight_1x02"
+attribut none
+position 200.175000 69.200000  orientation 270.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position  0.000000  0.000000  size  2.032000  2.032000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.000000 -2.540000  size  2.032000  2.032000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J11
+
+$MODULE "G***"
+reference "G***"
+value "LOGO"
+footprint "For_Love_&_Drones_No_Text"
+attribut none
+position 155.675000 81.375000  orientation 180.00
+layer back
+$EndMODULE  G***
+
+$MODULE "G***"
+reference "G***"
+value "LOGO"
+footprint "Graphics:oFb"
+attribut none
+position 162.306000 71.120000  orientation 0.00
+layer front
+$EndMODULE  G***
+
+$MODULE "LED3"
+reference "LED3"
+value "RED"
+footprint "LEDs:LED_0805"
+attribut smd
+position 199.390000 78.105000  orientation 90.00
+layer back
+$PAD "2"
+Shape Rect Layer back
+position  1.049020  0.000000  size  1.198880  1.198880  orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer back
+position -1.049020  0.000000  size  1.198880  1.198880  orientation 180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED3
+
+$MODULE "R3"
+reference "R3"
+value "47"
+footprint "Resistors_SMD:R_0805"
+attribut smd
+position 199.525000 73.800000  orientation 270.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  0.700000  1.300000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  0.700000  1.300000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R3
+
+$MODULE "G***"
+reference "G***"
+value "LOGO"
+footprint "Graphics:Flying_Badgers_300x300"
+attribut none
+position 159.385000 61.595000  orientation 135.00
+layer back
+$EndMODULE  G***
+
+$MODULE "G***"
+reference "G***"
+value "LOGO"
+footprint "Graphics:LimeAndPepper"
+attribut none
+position 156.210000 97.155000  orientation 180.00
+layer back
+$EndMODULE  G***
+
+$MODULE "J5"
+reference "J5"
+value "Conn_01x02_Male"
+footprint "Wire_Pads:Wire_Pads_1x2_4x3mm"
+attribut none
+position 203.200000 81.280000  orientation 270.00
+layer back
+$PAD "2"
+Shape Rect Layer back
+position  3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer back
+position -3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J5
+
+$MODULE "J6"
+reference "J6"
+value "Conn_01x02_Male"
+footprint "Wire_Pads:Wire_Pads_1x2_4x3mm"
+attribut none
+position 203.200000 99.060000  orientation 270.00
+layer back
+$PAD "2"
+Shape Rect Layer back
+position  3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer back
+position -3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J6
+
+$MODULE "J2"
+reference "J2"
+value "Conn_01x02_Male"
+footprint "Wire_Pads:Wire_Pads_1x2_4x3mm"
+attribut none
+position 185.420000 111.760000  orientation 180.00
+layer back
+$PAD "2"
+Shape Rect Layer back
+position  3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer back
+position -3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J2
+
+$MODULE "J4"
+reference "J4"
+value "Conn_01x02_Male"
+footprint "Wire_Pads:Wire_Pads_1x2_4x3mm"
+attribut none
+position 162.560000 99.060000  orientation 270.00
+layer back
+$PAD "2"
+Shape Rect Layer back
+position  3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer back
+position -3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J4
+
+$MODULE "J3"
+reference "J3"
+value "Conn_01x02_Male"
+footprint "Wire_Pads:Wire_Pads_1x2_4x3mm"
+attribut none
+position 162.560000 81.280000  orientation 270.00
+layer back
+$PAD "2"
+Shape Rect Layer back
+position  3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer back
+position -3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J3
+
+$MODULE "J2"
+reference "J2"
+value "Conn_01x02_Male"
+footprint "Wire_Pads:Wire_Pads_1x2_4x3mm"
+attribut none
+position 185.420000 111.760000  orientation 180.00
+layer front
+$PAD "2"
+Shape Rect Layer front
+position  3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J2
+
+$MODULE "J3"
+reference "J3"
+value "Conn_01x02_Male"
+footprint "Wire_Pads:Wire_Pads_1x2_4x3mm"
+attribut none
+position 162.560000 81.280000  orientation 270.00
+layer front
+$PAD "2"
+Shape Rect Layer front
+position  3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J3
+
+$MODULE "J4"
+reference "J4"
+value "Conn_01x02_Male"
+footprint "Wire_Pads:Wire_Pads_1x2_4x3mm"
+attribut none
+position 162.560000 99.060000  orientation 270.00
+layer front
+$PAD "2"
+Shape Rect Layer front
+position  3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J4
+
+$MODULE "J5"
+reference "J5"
+value "Conn_01x02_Male"
+footprint "Wire_Pads:Wire_Pads_1x2_4x3mm"
+attribut none
+position 203.200000 81.280000  orientation 270.00
+layer front
+$PAD "2"
+Shape Rect Layer front
+position  3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J5
+
+$MODULE "J6"
+reference "J6"
+value "Conn_01x02_Male"
+footprint "Wire_Pads:Wire_Pads_1x2_4x3mm"
+attribut none
+position 203.200000 99.060000  orientation 270.00
+layer front
+$PAD "2"
+Shape Rect Layer front
+position  3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -3.000000  0.000000  size  4.000000  3.000000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J6
+
+$MODULE "J1"
+reference "J1"
+value "Conn_02x05_Odd_Even"
+footprint "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm"
+attribut none
+position 142.240000 66.040000  orientation 270.00
+layer back
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  2.540000  0.000000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "3"
+Shape Oval Layer both
+position  0.000000 -2.540000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "4"
+Shape Oval Layer both
+position  2.540000 -2.540000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "5"
+Shape Oval Layer both
+position  0.000000 -5.080000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "6"
+Shape Oval Layer both
+position  2.540000 -5.080000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "7"
+Shape Oval Layer both
+position  0.000000 -7.620000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "8"
+Shape Oval Layer both
+position  2.540000 -7.620000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "9"
+Shape Oval Layer both
+position  0.000000 -10.160000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "10"
+Shape Oval Layer both
+position  2.540000 -10.160000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J1
+
+$MODULE "J9"
+reference "J9"
+value "Conn_02x01"
+footprint "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm"
+attribut none
+position 185.420000 121.920000  orientation 270.00
+layer back
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000 -2.540000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J9
+
+$MODULE "J8"
+reference "J8"
+value "Conn_02x01"
+footprint "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm"
+attribut none
+position 205.740000 121.920000  orientation 270.00
+layer back
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000 -2.540000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J8
+
+$MODULE "J7"
+reference "J7"
+value "Conn_02x01"
+footprint "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm"
+attribut none
+position 205.740000 73.660000  orientation 270.00
+layer back
+$PAD "1"
+Shape Rect Layer both
+position  0.000000  0.000000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Oval Layer both
+position  0.000000 -2.540000  size  1.700000  1.700000  orientation 0.00
+drill  1.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  J7
+
+$MODULE "G***"
+reference "G***"
+value "LOGO"
+footprint "Firefly:serenity_12x10mm_Silk"
+attribut none
+position 203.962000 114.554000  orientation 112.50
+layer back
+$EndMODULE  G***
+
+$MODULE "G***"
+reference "G***"
+value "LOGO"
+footprint "Graphics:oFb"
+attribut none
+position 176.175000 111.500000  orientation 180.00
+layer back
+$EndMODULE  G***
+
+$MODULE "LED4"
+reference "LED4"
+value "GREEN"
+footprint "LEDs:LED_0805"
+attribut smd
+position 197.100000 101.600000  orientation 180.00
+layer back
+$PAD "2"
+Shape Rect Layer back
+position  1.049020  0.000000  size  1.198880  1.198880  orientation -180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer back
+position -1.049020  0.000000  size  1.198880  1.198880  orientation -180.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  LED4
+
+$MODULE "R4"
+reference "R4"
+value "33"
+footprint "Resistors_SMD:R_0805"
+attribut smd
+position 197.750000 105.650000  orientation 0.00
+layer back
+$PAD "1"
+Shape Rect Layer back
+position -0.950000  0.000000  size  0.700000  1.300000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer back
+position  0.950000  0.000000  size  0.700000  1.300000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  R4
+
+$MODULE "G***"
+reference "G***"
+value "LOGO"
+footprint "Graphics:PCBway_1500x1500"
+attribut none
+position 182.825000 121.150000  orientation 180.00
+layer back
+$EndMODULE  G***
+
+$EndDESCRIPTION
