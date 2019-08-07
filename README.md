@@ -7,9 +7,12 @@ This site (in time) will answer all those questions.
 For now, until I can get stuff up on Thursday (I won't commit to which Thursday I am talking about) here are the answers to those questions:
 
 Q1: How to put it together?
+
 A1: If you are a hacker, figure it out!  If you are not a hacker, why the f*%K do you have a hacker badge? 
 
 Q2: How do I get this stuppid ass badge to stop blinking?
+
+
 A2: See Q1
 
 Ok, only kidding.  If you don't have a sens of humor and you expect everything to be perfect, then "this is not the badge you are looking for" <virtual hand swipe>
