@@ -1,6 +1,8 @@
 DEFCON 26 Flying Skull Badge
 
-**QUICK UPDATE: GETTING STARTED WITH YOU BADGE (AKA GETTING YOUR BADGE STARTED) VIDEO WILL BE POSTED TO WIKI SAT AM 8/10/19 **
+**************************************************************************************************************
+**QUICK UPDATE: GETTING STARTED WITH YOU BADGE (AKA GETTING YOUR BADGE STARTED) VIDEO IS NOW POSTED TO WIKI **
+**************************************************************************************************************
 
 Ok, so if you are here, you are probably looking for flying badge stuff like "how the f*$K do I put this thing together" or "it won't stop bliking, why won't it stop blinking"
 
