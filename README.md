@@ -1,5 +1,27 @@
 DEFCON 26 Flying Skull Badge
 
+/------------------------------------------------------------------------------------------------\\ 
+
+| . .  . * READ ME * . . . * NO SHIT READ ME * . . . *You will be F#@KED if you don't READ ME!!!*  . . . |
+
+/------------------------------------------------------------------------------------------------\\ 
+
+|--------------------__I have figured the following items out _the hard way_!!!__-----------------------|
+
+/------------------------------------------------------------------------------------------------\\ 
+
+| 1 DO NOT CROSS NEG & POS -/+ there is no protection for this (ie soldering on battery leads!) 
+
+| 2 DO NOT solder RED FCU Board more then 3 SECS!  Diods will POP & NEED TO BUY NEW ONES!
+
+| 3 If RED FCU Board from Syma 5X is solid RED (no blink) when powered see #2!!
+
+| 4 Propellors are different (A & B) be sure to MATCH them to the MOTORS (See badge around motors!)
+
+/------------------------------------------------------------------------------------------------\\
+
+
+
 *** QUICK UPDATE: GETTING STARTED WITH YOU BADGE ***                   
 
 *** (AKA GETTING YOUR BADGE STARTED) VIDEO IS NOW POSTED TO WIKI ***
