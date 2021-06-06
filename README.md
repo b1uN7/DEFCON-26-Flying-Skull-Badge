@@ -1,5 +1,8 @@
 DEFCON 26 Flying Skull Badge
 
+__Let's wotk together for DEFCON 29 (2021)!!  I have set up a new Slack fir us to prepare: 
+https://join.slack.com/t/flyingbadgers/shared_invite/zt-rhldgde9-1GLsEr0Yzdh6VICE2oVjuQ__
+
 /------------------------------------------------------------------------------------------------\\ 
 
 | . .  . * READ ME * . . . * NO SHIT READ ME * . . . *You will be F#@KED if you don't READ ME!!!*  . . . |
